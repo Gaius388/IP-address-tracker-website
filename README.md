@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Gaius388/IP-address-tracker-website.git)
 - Live Site URL: [Add live site URL here](https://gaius388.github.io/IP-address-tracker-website/)
 
 
