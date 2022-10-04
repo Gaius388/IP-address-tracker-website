@@ -199,6 +199,6 @@ small{
         font-size: 0.65rem;
     }
     .input{
-        padding-left: 0;
+        padding-left: 0.5em;
     }
 }
