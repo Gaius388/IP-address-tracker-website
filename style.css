@@ -20,7 +20,7 @@ body{
     grid-row: 1/2;
     background-image: url(./images/pattern-bg.png);
     background-repeat: no-repeat;
-    height: 35vh;
+    height: 225px;
     position: relative;
 }
 .input__section{
@@ -69,7 +69,7 @@ body{
 }
 .info__section{
     position: absolute;
-    inset: 23% 0 0 0;
+    inset: 140px 0 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -79,7 +79,7 @@ body{
     margin: 0 auto;
     padding: 1.5em 0;
     z-index: 2;
-    height: 22vh;
+    height: 150px;
     background-color: white;
 }
 .info__section p{
@@ -149,7 +149,7 @@ small{
         margin: 0 auto;
     }
     .top__container{
-        height: 50vh;
+        height: 200px;
         background-repeat: repeat;
     }
     .info__section{
@@ -158,8 +158,8 @@ small{
         width: 75%;
         justify-content: center;
         text-align: center;
-        height: 45vh;
-        inset: 25% 0 0 0;
+        height: 250px;
+        inset: 150px 0 0 0;
         background-color: white;
     }
     .info__section p{
