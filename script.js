@@ -46,7 +46,6 @@ const mapDetails = (lat, lng, data) => {
 const getIpAddress = function(address) {
     fetch(`https://geo.ipify.org/api/v2/country,city?apiKey=at_f0ebEvOiz1WirhNs0M7nRUyvltt6o&ipAddress=${address}`)
     .then(response => response.json()).then(data => {
-        console.log(data);
         renderIpAddress(data);
         mapDetails(data.location.lat, data.location.lng, data);
     }).catch(err => renderError(`Please check IP Address inputted or your internet connection🙂: ${err.message}`));
